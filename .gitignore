@@ -1,0 +1,109 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+log/
+
+# Docker
+.dockerignore
+
+# Redis
+dump.rdb
+*.rdb
+
+# AI Models
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Configuration files with secrets
+.env.local
+.env.production
+.env.staging
+
+# Build artifacts
+*.tar.gz
+*.zip
+build/
+dist/
+
+# Monitoring data
+prometheus_data/
+grafana_data/
+redis_data/
+
+# Backup files
+*.backup
+*.bak
+backup/
+
+# Cache
+.cache/
+cache/
